@@ -1,0 +1,235 @@
+.encabezado{
+    height: 96px;
+    background-color:#5300C8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img{
+    width: 138px;
+}
+
+.nombre-pagina{
+    font-size: 24px;
+    color:#E5E5E5;
+    font-family: "Press Start 2p";
+}
+
+.contenido-pagina{
+    padding: 60px 40px 60px 40px;
+    display: flex;
+    gap: 50px;
+}
+
+.productos-contenedor{
+    width: 60%;
+}
+
+.productos-titulo{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-family: "Press Start 2p";
+}
+
+.productos{
+    padding: 40px;
+    max-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.sin-productos{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-producto{
+    width: 196px;
+    height: 258px;
+    background-color: #5300C8;
+    border-radius: 3px;
+    border: black 3px solid;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.imagen-producto{
+    width: 176px;
+    height: 174px;
+    align-self: center;
+    margin: 3px 0;
+    border: black 3px solid;
+}
+
+.nombre-producto{
+    color: #E5E5E5;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 3px;
+}
+
+.card-producto-precio{
+    display: flex;
+    justify-content: space-around;
+    color: #E5E5E5;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 0 3px;
+    justify-content: space-between;
+}
+
+.borrar-producto{
+    width: 24px;
+    height: 24px;
+    background-color: #E5E5E5;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.formulario-contenedor{
+    width: 40%;
+    display: flex;
+}
+
+.agregar-producto-formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+}
+
+.formulario-titulo{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Press Start 2p";
+    padding-left: 40px;
+    align-self: center;
+}
+
+.campo{
+    width: 392px;
+    height: 58px;
+    border: #03318C 3px solid;
+    border-radius: 40px;
+}
+
+.botones-formulario{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton{
+    width: 188px;
+    height: 55px;
+    border: #03318C 3px solid;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.boton-enviar{
+    background-color: #03318C;
+    color: #E5E5E5;
+    transition: all 200ms;
+}
+
+.boton-enviar:hover{
+    background-color: #3b67bf;
+}
+
+.boton-limpiar{
+    color: #03318C;
+}
+
+.pie-pagina{
+    background-color: #5300C8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nombre-pagina-pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre-desarrollador{
+    font-size: 16px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+
+/*Diseño en movile*/
+
+
+@media (max-width: 768px){
+    .contenido-pagina{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .formulario-contenedor{
+        width: 430px;
+        order: 1;
+    }
+
+    .agregar-producto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .formulario-titulo{
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .agregar-producto-formulario{
+        padding: 0;
+    }
+
+    .campo{
+        width: 350px;
+        height: 58px;
+    }
+
+    .boton{
+        width: 164px;
+        height: 55px    ;
+    }
+
+    .productos-contenedor{
+        order: 2;
+        width: 100%;
+    }
+
+    .productos-titulo{
+        text-align: center;
+    }
+
+    .productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .card-producto{
+        width: 196px;
+        height: 258px;
+    }
+}

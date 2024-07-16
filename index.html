@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="encabezado">
+        <img src="./recursos/logo.png" alt="Logo de AluraGeek" class="logo-img">
+        <h1 class="nombre-pagina">AluraGeek</h1>
+    </header>
+    <main class="contenido-pagina">
+        <div class="productos-contenedor">
+            <h2 class="productos-titulo">Mis productos:</h2>
+            <section class="productos" data-productos>
+                
+            </section>
+        </div>
+        <div class="formulario-contenedor">
+            <section class="agregar-producto">
+                <h2 class="formulario-titulo">Agregar Producto:</h2>
+                <form class="agregar-producto-formulario" data-formulario>
+                    <input type="text" class="campo campo-nombre" placeholder="Nombre..." required data-nombre>
+                    <input type="text" class="campo campo-precio" placeholder="Precio.." required data-precio>
+                    <input type="text" class="campo campo-imagen" placeholder="Imagen..." required data-imagen>
+                    <div class="botones-formulario">
+                        <input type="submit" class="boton boton-enviar" value="Enviar">
+                        <button class="boton boton-limpiar">Limpiar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer class="pie-pagina">
+        <div class="nombre-pagina-pie"> 
+            <img src="./recursos/logo.png" alt="Logo de AluraGeek" class="logo-img">
+            <h1 class="nombre-pagina">AluraGeek</h1>
+        </div>
+        <p class="nombre-desarrollador">DESARROLLADO POR ANGEL FLORES</p>
+    </footer>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/crearProducto.js" type="module"></script>
+    <script src="./js/borrarProducto.js" type="module"></script>
+</body>
+</html>

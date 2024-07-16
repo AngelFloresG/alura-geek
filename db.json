@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "nombre": "Game Boy Classic",
+      "precio": "60",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg",
+      "id": "1"
+    },
+    {
+      "nombre": "StormStrooper",
+      "precio": "60",
+      "imagen": "https://acdn.mitiendanube.com/stores/002/096/341/products/stormtrooper-web1-767da393927a71929616644166159556-640-0.jpg",
+      "id": "2"
+    },
+    {
+      "nombre": "Llavero Thor",
+      "precio": "60",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_961128-MLA70215991366_062023-O.webp",
+      "id": "3"
+    },
+    {
+      "nombre": "Funko Dr. Strange",
+      "precio": "60",
+      "imagen": "https://cdn.gameplanet.com/wp-content/uploads/2022/10/06190404/889698601641-figura-pop-marvel-doctor-strange-in-the-multiverse-of-madness-doctor-strange-2.jpg",
+      "id": "4"
+    },
+    {
+      "nombre": "Carro Cars",
+      "precio": "60",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_866859-MLU73568931007_122023-O.webp",
+      "id": "5"
+    },
+    {
+      "nombre": "Hot Wheels Huracan",
+      "precio": "60",
+      "imagen": "https://m.media-amazon.com/images/I/710+wf7YzyL.jpg",
+      "id": "6"
+    },
+    {
+      "id": "7",
+      "nombre": "Figura Spider-man",
+      "precio": "120",
+      "imagen": "https://cdn1.coppel.com/images/catalog/mkp/7986/3000/79861209-1.jpg"
+    }
+  ]
+}
